@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/feedback")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://feedback-phi-brown.vercel.app")
 public class FeedbackController {
     private final FeedbackService feedbackService;
 
