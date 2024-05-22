@@ -31,7 +31,10 @@ function App() {
     }
 
     axios
-      .post("feedback-production-5d32.up.railway.app/api/feedback", feedback)
+      .post(
+        "https://feedback-production-5d32.up.railway.app/api/feedback",
+        feedback
+      )
       .then((response) => {
         console.log(response.data);
         alert("Feedback submitted successfully");
